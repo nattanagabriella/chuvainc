@@ -1,0 +1,191 @@
+@import url("style.css");
+
+@media(max-width: 1280px){
+    #title-content{ 
+        padding: 0px 0px 0px 36px;
+    }
+
+    #title-content span, #title-content p {
+        font-size: 12px;
+    }
+    
+    #title-content h2{
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .profile li p{
+       display: none;
+    }
+
+    .profile ul{
+        line-height: 32px;
+    }
+
+    h1{
+        font-size: 18px;
+    }
+
+    #top-section>div div:nth-child(2), #top-section>div div:nth-child(3){
+        width: 30px;
+    }
+    
+    #quote{
+        font-size: 12px;
+    }
+
+    #video{
+        height: auto;
+        grid-template: "video"  "detalhes";
+    }
+
+    #video img {  
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    #detalhes{
+        height: auto;
+        margin-left: 0;
+        max-width: 100%;
+    }  
+
+    #detalhes div{
+        overflow-y: scroll;
+        font-size: 14px;
+    }
+}
+
+
+@media(max-width: 955px){
+    .language{
+        display: none;
+     }
+
+     #menu .language-menu{
+        visibility: visible;
+    }
+
+     h1{
+        width: auto;
+        margin-right: 0;
+    }
+
+     #title-section{
+        display: block;
+     }
+
+     #top-section>div{
+        margin-top: 15px;
+        justify-content: flex-start;
+        margin-bottom: 12px;
+    }
+}
+
+@media(max-width: 856px){
+    .user{
+        justify-self: center;
+    }
+
+    #content-right h5{
+        display: none;
+     }
+}
+
+@media (max-width: 768px){
+    header{
+        width: 100%;
+    }
+
+    #content{
+        display: none;
+    }
+
+    .profile{
+        margin: 0px;
+    }
+    
+    .profile ul{
+        color: #fff;
+        line-height: 32px;
+    }
+
+    main {
+        margin-left: 0px;
+     }
+
+    #title-menu {
+         display: none;
+    }
+
+    #title-content {
+        display: none;
+    }
+
+    #normal-menu {
+        display: none;
+    }
+
+    #normal-menu img {
+        display: none;
+    }
+
+    #compact-menu{
+        letter-spacing: .3px;
+        color: #fff;
+        font-family: "Roboto";
+        display: flex;
+        visibility: visible;
+        justify-content:space-around;
+        align-items: center;
+        width: 100%;
+        height: 68px;
+        background: linear-gradient(0deg,#ED7839 0%,#FFB455 100%);
+    }
+
+    #compact-menu img {
+        border-radius: 30px;
+    }
+
+    #compact-menu p {
+        font-size: 12px;
+    }
+
+    #compact-menu h2 {
+        font-size: 18px;
+        font-weight: 400px;
+        line-height: 1.2;
+    }
+
+    #detalhes{
+        height: auto;
+    }  
+
+    #detalhes div{
+        overflow: hidden;
+        font-size: 12px;
+    }  
+
+    #presentation h3 {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    #form input {
+        font-size: 9px;
+    }
+
+    footer{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer div div {
+        width: auto;
+    }
+
+    footer div p {
+        width: auto;
+        margin: 25px 0 25px 20px;
+    }   
+}
